@@ -1,0 +1,215 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: #0a0a0a;
+    position: relative;
+}
+
+#particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+header {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    position: relative;
+    color: white;
+    background: url('https://staticg.sportskeeda.com/editor/2023/10/c12d5-16980709627018-1920.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 8rem 0 4rem;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #000000, #000000);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-download-btn {
+    background: #6930c3;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-download-btn:hover {
+    background: #5925a3;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.intro strong {
+    color: #6930c3;
+    text-shadow: 0 0 10px rgba(105, 48, 195, 0.5);
+}
+
+section {
+    padding: 4rem 2rem;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.step {
+    text-align: center;
+    position: relative;
+}
+
+.step-number {
+    background: #6e8efb;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.faq-items {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.faq-item {
+    margin-bottom: 2rem;
+}
+
+.cta {
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #6e8efb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: background 0.3s;
+}
+
+.download-btn:hover {
+    background: #5c7cfa;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links, .social-links {
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
